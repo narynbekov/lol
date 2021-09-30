@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+:root {
+    --main-color: #C79D5F;
+    --text-color: #FCEDED;
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+   font-family: 'Josefin Sans', sans-serif;;
+}
+
+.logo {
+    margin-top: 60px;
+}
+
+.links {
+    margin-right: 665px;
+}
+
+.links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    float: right;
+    color: #fff;
+    font-size: 18px;
+}
+
+.links a:hover {
+    color: var( --main-color);
+    transition: .2s;
+    text-decoration: underline;
+}
+
+.intro h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 150px;
+    color: var(--main-color);
+    margin-top: 310px;
+}
+
+.intro__img {
+    float: right;
+    margin-top: -500px;
+}
+
+.intro__footer {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 334px;
+    display: flex;
+}
+
+.intro__1.active {
+    color: var(--main-color);
+}
+
+.intro__1.active::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--main-color);
+}
+
+.intro__1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+}
+
+.intro__1::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.intro__search {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin-left: 1330px;
+}
+
+.intro__search:hover {
+    color: var(--main-color);
+    transition: .3;
+}
+
+.paintings__item {
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 100px;
+    text-align: right;
+    color: var(--main-color);
+}
+
+.paintings__content {
+    display: flex;
+}
+
+.img {
+    margin-right: 100px;
+}
+
+.paintings {
+    height: 1500px;
+}

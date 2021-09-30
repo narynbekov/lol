@@ -1,0 +1,16 @@
+COLOR:
+https://flatuicolors.com/
+https://www.grabient.com/
+
+ICONS:
+https://ionic.io/ionicons
+https://fontawesome.com/ 
+https://iconscout.com/unicons/explore/line
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+FONTS:
+https://fonts.google.com/
+
+ANIMATED TEXT:
+https://tobiasahlin.com/moving-letters/
